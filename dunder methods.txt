@@ -1,0 +1,44 @@
+1- init
+ If you've used classes, this is a method you must have used before.
+ The init method is used to create an instance of the class. The init method defined above accepts
+ a list of names as parameters and stores them in the class's list of names.
+ Also, it populates the version dictionary.
+ We also checked the list. Throws an exception if the list is empty. 
+
+
+2-str
+The str method is useful when we want to use an instance of our class in a print statement.
+ As mentioned, it usually returns a memory object.
+ But we can override the str method to suit our needs.
+
+3-setitem
+When assigning values in a dictionary, the setitem method is invoked.
+
+
+4-getitem
+The getitem method is like the setitem method, the major difference being
+that the getitem method is called when we use the [] operator of a dictionary
+
+5-delitem
+separate Delimiters are similar to the setitem and getitem methods. To avoid repetition,
+ let's move on to the implementation and use cases.
+
+6-len
+In a dictionary, the len method returns the number of items in the list, 
+or the number of key-value pairs in the dictionary.
+ We can also define a len method for our class.
+
+7-add
+The add method is called when using the + operator.
+ We can define a custom add method for our class.
+
+8-call
+When invoking a function like func(), we are invoking the call method.
+
+9-contains
+Use the contains method when using the in operator. 
+The return value must be a boolean.
+
+10-add
+The iadd method is like the add method.
+ It is invoked when using the += operator
