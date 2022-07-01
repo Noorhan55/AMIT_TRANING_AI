@@ -1,0 +1,37 @@
+What is the Encapsulation?
+Put the data and functions related to the data or that are performed on it within
+a specific category and hide the details of this data from the rest of the program
+or from the rest of the other category, and therefore they cannot separate the change 
+or effect from each other
+This process can be likened to a black box in which data is entered and output is
+obtained without knowing the details of its acquisition.
+
+** In Python, Encapsulation can be achieved by declaring thedata 
+members of a class either as private or protected.
+
+Why packaging?
+1- It helps the developer to fully interact with his data and everything is arranged to prevent errors
+2- Preserve the values ​​without ambiguity
+3- Separating the focus joint from behavioral control
+4- It helps in the testing process because we know what each class should do
+Conclusion:
+Encapsulation helps us maintain the system and avoid errors, we have high control,
+ test and change data without affecting or modifying the whole program, 
+which facilitates the process of error detection and prevents the process of code complexity
+
+example:
+class car:
+gastype=petrol
+getfuelpercentage():
+return fuel%
+
+bmw = new car()
+bmw.getfuelpercentage()
+
+what is abstraction?
+Show only the necessary details of the thing, otherwise it is hidden
+This is similar to how we know how to drive a car, but other mechanical details are not needed to drive this machine
+
+**The idea is to help programmers develop programs quickly and easily without having 
+to know full details and also helps maintain security
+

@@ -1,0 +1,11 @@
+*arrgs :
+
+When we are not sure how many arguments can be added to the function we add 
+an asterisk * before the parameter name to pass the arguments as the tuple
+
+
+**kwarge
+
+Allows any keyword of variable length to be passed with keyword arguments to the function
+The asterisk ** is before the parameter name to this type and the entries here are treated
+ as an internal dictionary of the same name
