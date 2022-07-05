@@ -1,0 +1,22 @@
+When we graphical represent the data, some of the data have irregularity. 
+To indicate these irregularities or uncertainties we use Error Bars:
+
+Basically, error bars are used to represent errors in the graphical plot.
+
+While not strictly a chart, error bars serve as a graphical enhancement to visualize variability in plotted data on a Cartesian chart.
+Error bars can be applied to charts such as scatter, scatter, bar, or line charts to provide additional detail about the data displayed.
+Error bars help to show the error or uncertainty of an estimate to give a general idea of ​​how accurate a measurement is. 
+This is done by using markers drawn on the original chart and its data points. 
+Typically, error bars are used to show the standard deviation, standard error, confidence interval, or minimum and maximum values ​​in a range dataset.
+
+To visualize this information, error bars work by drawing capped lines extending from the center of the plotted data points (or the edge of the bar). 
+The length of the error bars helps to show the uncertainty of the data points: short error bars indicate that the values ​​are concentrated,
+indicating that the presented mean is more likely, while long error bars indicate that the values ​​are more scattered and less reliable.
+Depending on the data type, the length of each pair of error bars tends to be the same on both sides. However, if the data is skewed, 
+then the lengths of each side will be unbalanced. Error bars are always parallel to the quantitative scale axis, so they can be displayed vertically or horizontally,
+depending on whether the quantitative scale is on the Y-axis or the X-axis. If you have two quantitative scales, you can use two pairs of error bars for both axes.
+
+
+Matplotlib line and bar charts can contain error bars. 
+Error bars are useful to problem solvers because they represent the confidence or accuracy of a series of measurements or calculations.
+ A bar graph without error bars gives the impression that the measured or calculated value is known to be of high accuracy or reliability.
